@@ -30,7 +30,7 @@ jobs:
   build:
     name: CI Web
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 5
 
     env:
       VP_GIT_HOOKS: '0'
